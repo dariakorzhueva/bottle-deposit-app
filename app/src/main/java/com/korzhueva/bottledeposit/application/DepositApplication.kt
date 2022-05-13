@@ -1,4 +1,4 @@
-package com.korzhueva.bottledeposit.app
+package com.korzhueva.bottledeposit.application
 
 import android.app.Application
 

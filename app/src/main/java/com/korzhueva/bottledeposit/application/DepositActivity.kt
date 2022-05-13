@@ -1,12 +1,12 @@
-package com.korzhueva.bottledeposit
+package com.korzhueva.bottledeposit.application
 
-import androidx.appcompat.app.AppCompatActivity
+import android.app.Activity
 import android.os.Bundle
 import com.korzhueva.bottle.deposi.bottle.deposit.bottledeposit.R
 
-class MainActivity : AppCompatActivity() {
+class DepositActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_deposit)
     }
 }
