@@ -5,7 +5,11 @@ import dagger.Component
 import javax.inject.Singleton
 
 @Singleton
-@Component
+@Component(
+    modules = [SubcomponentsModule::class]
+)
 interface ApplicationComponent {
     fun inject(activity: DepositActivity)
+
+    fun depositActComponent(): DepositActComponent.Factory
 }

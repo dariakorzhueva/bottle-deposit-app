@@ -9,10 +9,10 @@ class DepositApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        val appComponent = DaggerApplicationComponent.create()
+        appComponent = DaggerApplicationComponent.create()
     }
 
     fun getAppComponent(): ApplicationComponent {
-        return appComponent
+        return DaggerApplicationComponent.create()
     }
 }
