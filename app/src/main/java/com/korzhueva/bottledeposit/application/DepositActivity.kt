@@ -7,7 +7,7 @@ import com.korzhueva.bottledeposit.application.core.di.DepositActComponent
 import com.korzhueva.bottledeposit.application.deposit_list.ui.DepositListFragment
 
 class DepositActivity : AppCompatActivity() {
-    lateinit var depositActComponent: DepositActComponent
+    private lateinit var depositActComponent: DepositActComponent
 
     override fun onCreate(savedInstanceState: Bundle?) {
         depositActComponent = (applicationContext as DepositApplication)
