@@ -32,4 +32,16 @@ class QuantityBottomPanelView : LinearLayout {
         btnDown = view.findViewById(R.id.btnDown)
         btnUp = view.findViewById(R.id.btnUp)
     }
+
+    fun setDownAction(action: () -> Unit){
+        btnDown.setOnClickListener {
+            action.invoke()
+        }
+    }
+
+    fun setUpAction(action: () -> Unit){
+        btnUp.setOnClickListener {
+            action.invoke()
+        }
+    }
 }
