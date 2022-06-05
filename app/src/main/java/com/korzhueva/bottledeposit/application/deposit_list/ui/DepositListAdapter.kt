@@ -4,8 +4,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.korzhueva.bottledeposit.R
+import javax.inject.Inject
 
-class DepositListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class DepositListAdapter @Inject constructor() : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private var deposits: MutableList<DepositItem> = mutableListOf()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {

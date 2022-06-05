@@ -21,5 +21,6 @@ class DepositActivity : AppCompatActivity() {
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.flContainer, DepositListFragment.newInstance(), DepositListFragment.TAG)
+            .commit()
     }
 }
