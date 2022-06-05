@@ -16,4 +16,11 @@ class DepositListFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_deposit_list, container, false)
     }
+
+    companion object {
+        val TAG: String = DepositListFragment::class.java.canonicalName
+            ?: DepositListFragment::class.java.simpleName
+
+        fun newInstance(): DepositListFragment = DepositListFragment()
+    }
 }
