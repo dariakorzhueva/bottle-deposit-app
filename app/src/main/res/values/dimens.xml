@@ -6,4 +6,8 @@
     <dimen name="dimen_2">2dp</dimen>
 
     <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+
+    <dimen name="corner_radius_5">5dp</dimen>
+    <dimen name="option_button_size">32dp</dimen>
 </resources>
