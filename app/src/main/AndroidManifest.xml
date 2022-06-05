@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Bottledepositapp">
+        android:theme="@style/Theme.BottleDepositApp">
         <activity
             android:name=".application.DepositActivity"
             android:exported="true">
