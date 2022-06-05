@@ -11,5 +11,5 @@ interface DepositActComponent {
         fun create(): DepositActComponent
     }
 
-    fun inject(loginActivity: DepositActivity)
+    fun inject(activity: DepositActivity)
 }
