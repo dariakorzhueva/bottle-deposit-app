@@ -14,13 +14,25 @@
         android:layout_marginTop="@dimen/dimen_16"
         app:cardCornerRadius="@dimen/dimen_4">
 
-        <TextView
-            android:id="@+id/tvDeposit"
-            style="@style/TextBold24"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:paddingVertical="@dimen/dimen_16"
-            tools:text="Can" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDeposit"
+                style="@style/TextBold24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingVertical="@dimen/dimen_16"
+                tools:text="Can" />
+
+            <com.korzhueva.bottledeposit.application.core.ui.QuantityBottomPanelView
+                android:id="@+id/vQuantityBottomPanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
 </FrameLayout>
