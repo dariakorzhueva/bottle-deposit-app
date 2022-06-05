@@ -13,7 +13,8 @@ class DepositViewHolder(
     private val vQuantityBottomPanelView: QuantityBottomPanelView =
         itemView.findViewById(R.id.vQuantityBottomPanel)
 
-    fun bind() {
+    fun bind(deposit: DepositItem) {
+        tvName.text = deposit.name
         vQuantityBottomPanelView.apply {
             setDownAction { }
             setUpAction { }
