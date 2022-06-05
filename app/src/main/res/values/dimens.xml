@@ -5,6 +5,8 @@
     <dimen name="dimen_4">4dp</dimen>
     <dimen name="dimen_2">2dp</dimen>
 
+    <dimen name="constraint_parent">0dp</dimen>
+
     <dimen name="text_size_24">24sp</dimen>
     <dimen name="text_size_16">16sp</dimen>
 

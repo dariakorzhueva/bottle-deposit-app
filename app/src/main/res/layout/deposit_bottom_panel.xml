@@ -7,39 +7,31 @@
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/btnDown"
-        android:layout_width="@dimen/option_button_size"
-        android:layout_height="@dimen/option_button_size"
+        style="@style/OptionButton"
         android:layout_margin="@dimen/dimen_16"
-        android:background="@drawable/bg_rounded_corners"
-        android:backgroundTint="@color/gray"
         android:paddingHorizontal="@dimen/dimen_8"
         android:src="@drawable/ic_remove_24"
-        android:textSize="@dimen/text_size_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="wrap_content"
+        style="@style/TextBold16"
+        android:layout_width="@dimen/constraint_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/btnUp"
         app:layout_constraintStart_toEndOf="@id/btnDown"
         app:layout_constraintTop_toTopOf="parent"
-        android:textStyle="bold"
-        android:textSize="@dimen/text_size_16"
         tools:text="5" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/btnUp"
-        android:layout_width="@dimen/option_button_size"
-        android:layout_height="@dimen/option_button_size"
+        style="@style/OptionButton"
         android:layout_margin="@dimen/dimen_16"
-        android:background="@drawable/bg_rounded_corners"
-        android:backgroundTint="@color/gray"
         android:paddingHorizontal="@dimen/dimen_8"
         android:src="@drawable/ic_add_24"
-        android:textSize="@dimen/text_size_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

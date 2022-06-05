@@ -16,12 +16,11 @@
 
         <TextView
             android:id="@+id/tvDeposit"
+            style="@style/TextBold24"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingVertical="@dimen/dimen_16"
-            android:textSize="@dimen/text_size_24"
-            android:textStyle="bold"
             tools:text="Can" />
     </androidx.cardview.widget.CardView>
 </FrameLayout>

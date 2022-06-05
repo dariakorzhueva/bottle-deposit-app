@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextBold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBold24" parent="TextBold">
+        <item name="android:textSize">@dimen/text_size_24</item>
+    </style>
+
+    <style name="TextBold16" parent="TextBold">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="OptionButton">
+        <item name="android:layout_width">@dimen/option_button_size</item>
+        <item name="android:layout_height">@dimen/option_button_size</item>
+        <item name="android:background">@drawable/bg_rounded_corners</item>
+        <item name="android:backgroundTint">@color/gray</item>
+    </style>
+</resources>
